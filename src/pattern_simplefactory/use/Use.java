@@ -14,6 +14,16 @@ public class Use {
     public static void main (String[] args) {
 		Person p0 = PersonFactory.getPerson("student");
 		p0.getJob();
+		
+		//可配置简单工厂
+		try {
+			Person p1 = PersonFactory.getPropertiesPerson("Teacher");
+			p1.getJob();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
     
 }
