@@ -1,4 +1,4 @@
-package pattern_adapter.myinterface.use;
+package pattern_adapter.use;
 
 import java.util.ArrayList;
 import java.util.List;
