@@ -3,6 +3,7 @@ package pattern_adapter.use;
 import java.util.ArrayList;
 import java.util.List;
 
+import pattern_adapter.myinterface.DBOperater;
 import pattern_adapter.myinterface.FileOperater;
 import pattern_adapter.myinterface.LogModel;
 import pattern_adapter.myinterface.impl.Adapter;
@@ -27,7 +28,7 @@ public class Use {
         log1.setId("002");
         log1.setDate("201711");
         log1.setContent("ÌìÆø");
-        Adapter adapter = new Adapter(fo);
+        DBOperater adapter = new Adapter(fo);
         adapter.createLog(log1);
         System.out.println(adapter.getLog().get(0));
         
