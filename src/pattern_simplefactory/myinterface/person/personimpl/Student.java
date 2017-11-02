@@ -1,6 +1,6 @@
-package pattern_simplefactory.no_use.myinterface.person.personimpl;
+package pattern_simplefactory.myinterface.person.personimpl;
 
-import pattern_simplefactory.no_use.myinterface.person.Person;
+import pattern_simplefactory.myinterface.person.Person;
 
 public class Student implements Person {
 

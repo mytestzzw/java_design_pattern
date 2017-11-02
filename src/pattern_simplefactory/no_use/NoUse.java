@@ -1,7 +1,8 @@
 package pattern_simplefactory.no_use;
 
-import pattern_simplefactory.no_use.myinterface.person.Person;
-import pattern_simplefactory.no_use.myinterface.person.personimpl.Student;
+
+import pattern_simplefactory.myinterface.person.Person;
+import pattern_simplefactory.myinterface.person.personimpl.Student;
 /*
  * 不使用工厂获取实例
  * 
