@@ -7,3 +7,8 @@ facade pattern sum-up
 一、封装了子系统
 二、简化调用，只需要和facade交互
 三、分层设计时可以考虑facade
+
+adapter pattern sum-up
+一、adapter实现目标接口(使接口匹配)
+二、传参(获得被适配者)
+三、调整实现(复用被适配者的功能，只不过要调整)
