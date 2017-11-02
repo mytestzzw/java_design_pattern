@@ -1,0 +1,2 @@
+simple factory pattern problems:
+一、如何用IOC/DI解决新增实现类需要修改工厂类的问题
